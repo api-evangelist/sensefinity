@@ -1,7 +1,17 @@
 aid: sensefinity
 name: Sensefinity
-description: Sensefinity is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sensefinity is a supply-chain IoT company ("The IoT Transformation Company")
+  delivering real-time tracking, monitoring, and analytics for global cargo and
+  logistics operations. Its platform combines GPS/NB-IoT tracking devices for
+  maritime containers, pallets, and vehicles with temperature and condition
+  (cold-chain) sensors, indoor location tracking, a cloud analytics and machine
+  learning layer, and digital product passport / blockchain integrations. The
+  operational platform is delivered as a hosted web application (uiadmin.sensefinity.com)
+  and mobile asset-management apps, serving enterprise customers across food,
+  pharma, automotive, and manufacturing supply chains. No public developer
+  portal, OpenAPI specification, or SDK surface is published as of this profile;
+  a private API host (api.sensefinity.com) backs the platform.
 url: https://raw.githubusercontent.com/api-evangelist/sensefinity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://sensefinity.com/media/logos/sensefinity_iot-small.png
 tags:
 - Company
+- Internet of Things
+- Supply Chain
+- Logistics
+- Cold Chain
+- Asset Tracking
+- Sensors
+- Cargo
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://sensefinity.com/
+- type: Blog
+  url: https://sensefinity.com/blog
+- type: Support
+  url: https://sensefinity.com/support-request
+- type: PrivacyPolicy
+  url: https://sensefinity.com/privacy-policy
+- type: Login
+  url: https://uiadmin.sensefinity.com/
+- type: GitHubOrganization
+  url: https://github.com/sensefinity
+- type: DomainSecurity
+  url: security/sensefinity-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
